@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:id="@+id/layout_signup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".SignUpActivity">
+
+    <ImageView
+        android:id="@+id/SignUpScreenLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        app:srcCompat="@mipmap/ic_bl_logo_v2" />
+
+    <TextView
+        android:id="@+id/signUp_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:fontFamily="@font/oxygen"
+        android:text="@string/signup_heading"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:fontFamily="@font/poppins"
+        android:text="Welcome to BookLoop!"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="3dp"
+        android:hint="@string/enter_full_name"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:hintTextColor="@color/black"
+        app:startIconDrawable="@drawable/ic_user_"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="10dp"
+            android:inputType="text"
+            android:fontFamily="@font/open_sans"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="3dp"
+        android:hint="Enter Email Id"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:hintTextColor="@color/black"
+        app:startIconDrawable="@drawable/ic_email_"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/user_mail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="3dp"
+            android:inputType="text"
+            android:fontFamily="@font/open_sans"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="3dp"
+        android:hint="Enter Phone Number"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:hintTextColor="@color/black"
+        app:startIconDrawable="@drawable/ic_phone"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/user_phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="3dp"
+            android:inputType="phone"
+            android:fontFamily="@font/open_sans"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="3dp"
+        android:hint="Enter Password"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:hintTextColor="@color/black"
+        app:passwordToggleEnabled="true"
+        app:startIconDrawable="@drawable/ic_password"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/user_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="3dp"
+            android:inputType="textPassword"
+            android:fontFamily="@font/open_sans"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_reenter_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:hint="Confirm your password"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:hintTextColor="@color/black"
+        app:startIconDrawable="@drawable/ic_password"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/user_confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="3dp"
+            android:inputType="textPassword"
+            android:fontFamily="@font/open_sans"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginStart="60dp"
+        app:cornerRadius="36dp"
+        android:backgroundTint="@color/blue"
+        android:fontFamily="@font/oxygen"
+        android:text="@string/signup_new" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="Already have an account?"
+            android:textSize="18sp"
+            android:fontFamily="@font/open_sans_light"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/Login"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="  Login"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/open_sans_light"
+            android:textColor="@color/black"/>
+</LinearLayout>
+
+</LinearLayout>
+</ScrollView>

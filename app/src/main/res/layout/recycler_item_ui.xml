@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="#cfebfd"
+    app:cardCornerRadius="9dp"
+    app:cardElevation="7dp"
+    android:id="@+id/ui_card">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="6dp">
+
+        <TextView
+            android:id="@+id/ui_book_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="6dp"
+            android:drawableStart="@drawable/book"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:fontFamily="@font/open_sans"/>
+
+        <TextView
+            android:id="@+id/ui_book_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="6dp"
+            android:drawableStart="@drawable/price"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:fontFamily="@font/open_sans"/>
+
+        <TextView
+            android:id="@+id/ui_seller_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="6dp"
+            android:drawableStart="@drawable/ic_user_"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:fontFamily="@font/open_sans"/>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

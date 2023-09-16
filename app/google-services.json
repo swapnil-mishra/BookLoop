@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "994633724495",
+    "project_id": "bookloop-7022d",
+    "storage_bucket": "bookloop-7022d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994633724495:android:1856a0c3f3c4bdb5ac303a",
+        "android_client_info": {
+          "package_name": "com.mypackage.bookloop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994633724495-noufaitensq7lqunc8mjb5fki1jm8hjv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4Koxx7jdRUWHNQVMpr4mSFokBK6ArTZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994633724495-noufaitensq7lqunc8mjb5fki1jm8hjv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">BookLoop</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="enter_the_username">Enter User Name</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="want_to_create_new_account">Want to Create New Account? </string>
+    <string name="signup">New to BookLoop? <b>SignUp</b></string>
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="Already_have_an_account">Already have an account? </string>
+    <string name="Login">Login</string>
+    <string name="home">HOME</string>
+    <string name="logout">Logout</string>
+    <string name="your_account">Your Account</string>
+    <string name="search">Search</string>
+    <string name="my_uploads">My Uploads</string>
+    <string name="home_menu">Home</string>
+    <string name="my_profile">My Profile</string>
+    <string name="upload_new">UPLOAD NEW</string>
+    <string name="upload_new_book">Upload New Book</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Update">Update Details</string>
+    <string name="Backtodashboard">Back to Dashboard</string>
+    <string name="edit_full_name">Edit full name</string>
+    <string name="Backtomenu">Back to menu</string>
+    <string name="changepass">Change Password</string>
+    <string name="edit_myupload">Edit Book Details</string>
+    <string name="hint_email">Enter your registered email</string>
+    <string name="forgot_password_msg">Reset Password</string>
+    <string name="resetPassword">Reset Password</string>
+    <string name="signup_heading">SignUp</string>
+    <string name="enter_registered_email">Enter Registered Email</string>
+    <string name="signup_new">SignUp</string>
+</resources>
